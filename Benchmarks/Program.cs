@@ -7,7 +7,6 @@ namespace InstanceCreator.Benchmarks
         static void Main(string[] args)
         {
             BenchmarkSwitcher.FromAssembly(typeof(Program).Assembly).Run(args);
-            //var summary = BenchmarkRunner.Run<TypeConverterBenchmarks>();
         }
     }
 }
